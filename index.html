@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="5;url=https://dsc.gg/flarex">
+    <title>LOAD..</title>
+  <script>
+        setInterval(function() {
+            var titles = [".", "..", "..."]; // Array of titles
+            var randomIndex = Math.floor(Math.random() * titles.length); // Get random index
+            document.title = titles[randomIndex]; // Set random title
+        }, 1000); // Update title every 1000ms (1 second)
+    </script>
+      <script>
+        setTimeout(function() {
+            var link = document.createElement('p');
+            link.innerHTML = 'If you are not redirected, <a href="https://dsc.gg/flarex">click here</a>.';
+            document.body.appendChild(link);
+        }, 4000); // Show the link after 5000ms (5 seconds)
+    </script>
+</head>
+<body>
+    <text> you are being redirected...</text>
+</body>
+</html>
